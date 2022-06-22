@@ -10,14 +10,18 @@ export default function App() {
         <footer>
           {" "}
           This project was coded by{" "}
-          <a href="https://mnewman.io" target="_blank" rel="noreferrer">
+          <a
+            href="https://mnewman.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             MNewman
           </a>{" "}
           and is {""}
           <a
             href="https://github.com/NewmanSaurusRex/react-weather-final"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced
           </a>
