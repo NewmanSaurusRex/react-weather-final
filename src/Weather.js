@@ -12,10 +12,15 @@ export default function Weather() {
               type="search"
               placeholder="Enter a City"
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
@@ -24,14 +29,19 @@ export default function Weather() {
         <li>Tuesday, June 21</li>
         <li>Sunny</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://media.istockphoto.com/vectors/sun-vector-icon-cute-yellow-sun-with-face-emoji-summer-emoticon-vector-id1142670098?k=20&m=1142670098&s=612x612&w=0&h=jRNzskWzMIUMV6I3RjFWQW7mzGfZxwmtN9xHu7VWo-c="
-            alt="smiling sun emoji"
-            className="img-fluid"
-          ></img>
-          Currently: 18°C
+          <div className="clearfix">
+            <img
+              src="https://media.istockphoto.com/vectors/sun-vector-icon-cute-yellow-sun-with-face-emoji-summer-emoticon-vector-id1142670098?k=20&m=1142670098&s=612x612&w=0&h=jRNzskWzMIUMV6I3RjFWQW7mzGfZxwmtN9xHu7VWo-c="
+              alt="smiling sun emoji"
+              className="img-fluid float-left"
+            ></img>
+            <div className="float-left">
+              <span className="temperature"> 18</span>
+              <span className="unit">°C</span>
+            </div>
+          </div>
         </div>
         <div className="col-6">
           <ul>
