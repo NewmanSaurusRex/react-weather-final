@@ -1,0 +1,5 @@
+# Build Daily Forecast
+-- Build layout
+-- Style Forecast
+-- Find appropriate API + make API call
+-- Integrate API w/interface so updates on search

@@ -1,20 +1,20 @@
 .Weather {
+  font-family: Arial, Helvetica, sans-serif;
   border: 1px solid black;
   padding: 16px;
   border-radius: 6px;
 }
 
-.Weather form {
-  margin-bottom: 20px;
-}
-
 .Weather h1 {
   color: black;
-  display: block;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 100;
   margin: 20px 0 0 0;
-  line-height: 1.5;
+  line-height: 30px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
 }
 
 .Weather ul {
@@ -24,27 +24,22 @@
 
 .Weather li {
   color: gray;
-  display: block;
   font-size: 16px;
-  font-weight: 200;
-  line-height: 1.5;
-  text-align: left;
+  font-weight: 100;
+  line-height: 30px;
   list-style: none;
-}
-
-.Weather canvas {
-  height: 64px;
-  width: px;
-  display: block;
-  float: left;
-  margin-right: 10px;
 }
 
 .Weather .temperature {
   font-weight: bold;
   color: black;
-  font-size: 62px;
+  font-size: 64px;
   line-height: 64px;
+  font-weight: 400;
+}
+
+.Weather canvas {
+  margin: 10px auto;
 }
 
 .Weather .unit {
