@@ -25,7 +25,15 @@ export default function App() {
           >
             open-sourced
           </a>
-          {""} on github.
+          {""} on Github and hosted on{" "}
+          <a
+            href="https://resilient-speculoos-5d9a94.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
